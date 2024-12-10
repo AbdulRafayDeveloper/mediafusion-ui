@@ -11,10 +11,10 @@ const Index=()=>{
   return (
     <>
       <Navbar/>
-      <Tool/>
+      {/* <Tool/> */}
       <WriterText/>
       <Featured/>
-      <AiTool/>
+      {/* <AiTool/> */}
       <RewriterTool/>
       <FAQs/>
       <Footer/>

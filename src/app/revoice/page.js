@@ -1,9 +1,8 @@
 "use client";
-import Link from "next/link";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 
-const About = () => {
+const VideoRevoice = () => {
   return (
     <>
       <Navbar />
@@ -12,7 +11,7 @@ const About = () => {
           <div className="flex justify-center items-center text-center mt-6">
             <div className="w-full sm:w-[600px] lg:w-[800px] mt-10">
               <div className="mt-5 w-full lg:max-w-[1320px] mx-auto p-4">
-                <h1 className="text-2xl sm:text-3xl font-bold">About Us</h1>
+                <h1 className="text-2xl sm:text-3xl font-bold">Video Revoice</h1>
               </div>
             </div>
           </div>
@@ -20,39 +19,32 @@ const About = () => {
             <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1">
               <div className="p-6">
                 <img
-                  src="https://img.freepik.com/free-vector/office-work-school-education-man-writing-chart-board-woman-designer-drawing-graphic-tablet-teacher-stand-knee-giving-book-little-girl-with-schoolbag_33099-2516.jpg"
-                  alt=""
-                  className="shrink-0 w-[600px] "
+                  src="https://img.freepik.com/free-vector/video-conferencing-concept-illustration_114360-4761.jpg"
+                  alt="Video Revoice Illustration"
+                  className="shrink-0 w-[600px] h-[400px]"
                 />
               </div>
               <div className="bg-slate-100">
                 <div className="p-8">
                   <h1 className="text-3xl font-bold italic">
-                    About Our Platform
+                    Enhance Your Videos with Revoice
                   </h1>
                   <p className="mt-4 italic">
-                    Our video and audio converter platform offers seamless and
-                    reliable tools to simplify your media conversion needs.
+                    The Video Revoice platform allows you to effortlessly replace, enhance, or edit the audio in your video files with precision and clarity.
                   </p>
                   <ul className="text-justify ml-6 mt-3">
                     <li className="mt-2">
-                      <i className="fa-solid fa-square-check"></i> Convert
-                      videos and audios into multiple formats effortlessly.
+                      <i className="fa-solid fa-square-check"></i> Replace audio in video files with custom voiceovers.
                     </li>
                     <li className="mt-2">
-                      <i className="fa-solid fa-square-check"></i> Extract audio
-                      from video files with just a few clicks.
+                      <i className="fa-solid fa-square-check"></i> Synchronize audio tracks seamlessly with your visuals.
                     </li>
                     <li className="mt-2">
-                      <i className="fa-solid fa-square-check"></i> Supports
-                      popular formats like MP4, MP3, WAV, and more.
+                      <i className="fa-solid fa-square-check"></i> Apply noise reduction and audio effects for better quality.
                     </li>
                   </ul>
                   <p className="mt-2">
-                    Our mission is to provide a user-friendly, efficient, and
-                    high-quality solution for your media conversion tasks. Join
-                    us to make your media conversion experience fast and
-                    hassle-free.
+                    Whether you're a content creator, educator, or just enhancing a personal video, our tools make the process easy and efficient. Experience the power of professional-grade audio editing, all within a user-friendly interface.
                   </p>
                 </div>
               </div>
@@ -64,4 +56,5 @@ const About = () => {
     </>
   );
 };
-export default About;
+
+export default VideoRevoice;

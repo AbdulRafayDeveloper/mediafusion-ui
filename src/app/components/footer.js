@@ -12,24 +12,18 @@ const Footer = () => {
                 className="flex items-center space-x-3 rtl:space-x-reverse"
               >
                 <img
-                  src="https://th.bing.com/th/id/OIP.-WXWqkczZZsOk3kfdV2jtgHaF7?w=245&h=196&c=7&r=0&o=5&pid=1.7"
-                  className="h-[50px] w-[50px]"
+                  src="/img/logo.png"
+                  className="h-[90px] w-[90px]"
                   alt="Logo"
                 />
-                <div>
-                  <p className="self-center text-xl font-semibold whitespace-nowrap">
-                    PARAGRAPH
-                  </p>
-                  <span className="self-center text-sm font-serif">
-                    REWRITER
-                  </span>
-                </div>
               </a>
               <div className="mt-6 w-full lg:w-[500px]">
                 <p className="text-lg leading-relaxed">
-                  Paragraph rewriter is an AI-based rewriting tool that can
-                  rewrite text with advanced NLP-trained models. This online
-                  paragraph rewriter is the best solution for writers block.
+                  Our platform is a
+                  user-friendly interface, supporting various formats like MP4,
+                  MP3, and WAV. Easily extract audio, convert files, or batch
+                  process multiple uploads securely, ensuring fast, high-quality
+                  results every time.
                 </p>
               </div>
             </div>
@@ -39,20 +33,18 @@ const Footer = () => {
                 <h1 className="text-lg lg:text-xl font-bold">Information</h1>
               </div>
               <div className="mt-6 space-y-2 text-lg">
-              <Link href="/contact" className="block hover:text-blue-600">
-                  Contact Us
-                </Link>
+               
                 <Link href="/about" className="block hover:text-blue-600">
                   About Us
                 </Link>
                 <Link href="/privacy" className="block hover:text-blue-600">
                   Privacy & Policy
                 </Link>
-                <Link href="/terms" className="block hover:text-blue-600">
-                  Terms & Conditions
+                <Link href="/revoice" className="block hover:text-blue-600">
+              	Video Revoice
                 </Link>
-                <Link href="/disclaimer" className="block hover:text-blue-600">
-                  Disclaimer
+                <Link href="/speechmaker" className="block hover:text-blue-600">
+                Speech Maker
                 </Link>
               </div>
             </div>
@@ -62,17 +54,26 @@ const Footer = () => {
                 <h1 className="text-lg lg:text-xl font-bold">Social Media</h1>
               </div>
               <div className="mt-6 space-y-2 text-lg">
-                <Link href="/about-us" className="flex items-center hover:text-blue-600">
-                  <i className="fa-brands fa-twitter text-black text-xl hover:text-blue-600"></i>
-                  <span className="ml-3">Twitter</span>
+                <Link
+                  href="/about-us"
+                  className="flex items-center group hover:text-blue-600"
+                >
+                  <i className="fa-brands fa-twitter text-black text-xl group-hover:text-blue-600"></i>
+                  <span className="ml-3 group-hover:text-blue-600">Twitter</span>
                 </Link>
-                <Link href="/privacy" className="flex items-center hover:text-blue-600">
-                  <i className="fa-brands fa-instagram text-black text-xl hover:text-blue-600"></i>
-                  <span className="ml-3">Instagram</span>
+                <Link
+                  href="/privacy"
+                  className="flex items-center group hover:text-blue-600"
+                >
+                  <i className="fa-brands fa-instagram text-black text-xl group-hover:text-blue-600"></i>
+                  <span className="ml-3 group-hover:text-blue-600">Instagram</span>
                 </Link>
-                <Link href="/terms" className="flex items-center hover:text-blue-600">
-                  <i className="fa-brands fa-facebook text-black text-xl hover:text-blue-600"></i>
-                  <span className="ml-3">Facebook</span>
+                <Link
+                  href="/terms"
+                  className="flex items-center group hover:text-blue-600"
+                >
+                  <i className="fa-brands fa-facebook text-black text-xl group-hover:text-blue-600"></i>
+                  <span className="ml-3 group-hover:text-blue-600">Facebook</span>
                 </Link>
               </div>
             </div>
@@ -92,3 +93,10 @@ const Footer = () => {
 };
 
 export default Footer;
+
+
+
+
+
+
+
