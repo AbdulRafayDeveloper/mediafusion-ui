@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-slate-100 fixed w-full z-20 top-0 start-0">
+    <nav className="bg-slate-100 fixed w-full z-20 top-0 start-0 shadow-md">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2 md:p-2">
         <Link
           href="/"
@@ -22,8 +22,6 @@ const Navbar = () => {
             alt="Flowbite Logo"
           />
         </Link>
-
-      
 
         <div
           className={`items-center justify-between w-full md:flex md:w-auto md:order-1 ${
@@ -53,12 +51,21 @@ const Navbar = () => {
                 href="sentenceRewriter"
                 className="text-sm sm:text-lg block py-2 px-3 sm:py-5 sm:px-5 md:p-0 text-gray-500 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-gray-800"
               >
-              About us
+                About us
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
-                href="sentenceRewriter"
+                href="/registerform"
+                className="text-sm sm:text-lg block py-2 px-3 sm:py-5 sm:px-5 md:p-0 text-gray-500 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-gray-800"
+              >
+                
+              </Link>
+            
+            </li> */}
+            <li>
+            <Link
+                href="/loginform"
                 className="text-sm sm:text-lg block py-2 px-3 sm:py-5 sm:px-5 md:p-0 text-gray-500 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-gray-800"
               >
                 Login / Register

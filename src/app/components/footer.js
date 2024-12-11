@@ -55,7 +55,7 @@ const Footer = () => {
               </div>
               <div className="mt-6 space-y-2 text-lg">
                 <Link
-                  href="/about-us"
+                  href="/privacy"
                   className="flex items-center group hover:text-blue-600"
                 >
                   <i className="fa-brands fa-twitter text-black text-xl group-hover:text-blue-600"></i>
@@ -69,7 +69,7 @@ const Footer = () => {
                   <span className="ml-3 group-hover:text-blue-600">Instagram</span>
                 </Link>
                 <Link
-                  href="/terms"
+                  href="/privacy"
                   className="flex items-center group hover:text-blue-600"
                 >
                   <i className="fa-brands fa-facebook text-black text-xl group-hover:text-blue-600"></i>

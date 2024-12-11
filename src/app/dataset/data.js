@@ -512,104 +512,104 @@ const FAQsData = [
     }
   ];
   
-// const ParagraphFAQs=[
-//     {
-//         id: 1,
-//         questionNo: "Q1: ",
-//         question: "How to rewrite my paragraph?",
-//         answer: "To rewrite paragraphs, you can use the Paragraph Rewriter. It will automatically rewrite paragraph and convert them into a unique, compelling, and new style."
-//     },
-//     {
-//         id: 2,
-//         questionNo: "Q2: ",
-//         question: "Can I remove plagiarism from a paragraph?",
-//         answer: "Yes, you can remove all instances of plagiarism from a paragraph using an online AI rewriter. All you need to do is to pass your paragraphs through the tool. The Paragraph rewriter will take no time to transform it from a plagiarized to a unique one."
-//     },
-//     {
-//         id: 3, 
-//         questionNo: "Q3: ",
-//         question: "Can AI Paragraph Rewriter make my academic essay more fluent?",
-//         answer: "Our AI online rewriter tool can help you make your academic essay more fluent. For this, you can try out our “Fluent” mode to make the required changes in your essay to make it more fluent."
-//     },
-//     {
-//         id: 4,
-//         questionNo: "Q4: ",
-//         question: "Is using the rewriter tool for paragraphs Legal?",
-//         answer: "Yes, using the online rewriter for your paragraphs is completely legal."
-//     },
-//     {
-//         id: 5,
-//         questionNo: "Q5: ",
-//         question: "How does the Paragraph Rewriter tool help me write an effective blog?",
-//         answer: "Paragraph rewriting tool will help you write an effective blog by uplifting the quality of your writing paragraphs. As a result, your blog post will be made more creative, unique, as well as compelling."
-//     },
-//     {
-//         id: 6,
-//         questionNo: "Q6: ",
-//         question: "How to rewrite my paragraph?",
-//         answer: "To rewrite paragraphs, you can use the Paragraph Rewriter. It will automatically rewrite paragraph and convert them into a unique, compelling, and new style."
-//     },
-//     {
-//         id: 7,
-//         questionNo: "Q7: ",
-//         question: "Can I remove plagiarism from a paragraph?",
-//         answer: "Yes, you can remove all instances of plagiarism from a paragraph using an online AI rewriter. All you need to do is to pass your paragraphs through the tool. The Paragraph rewriter will take no time to transform it from a plagiarized to a unique one."
-//     },
-//     {
-//         id: 8, 
-//         questionNo: "Q8: ",
-//         question: "Can AI Paragraph Rewriter make my academic essay more fluent?",
-//         answer: "Our AI online rewriter tool can help you make your academic essay more fluent. For this, you can try out our “Fluent” mode to make the required changes in your essay to make it more fluent."
-//     },
-//     {
-//         id: 9,
-//         questionNo: "Q9: ",
-//         question: "Is using the rewriter tool for paragraphs Legal?",
-//         answer: "Yes, using the online rewriter for your paragraphs is completely legal."
-//     },
-//     {
-//         id: 10,
-//         questionNo: "Q10: ",
-//         question: "How does the Paragraph Rewriter tool help me write an effective blog?",
-//         answer: "Paragraph rewriting tool will help you write an effective blog by uplifting the quality of your writing paragraphs. As a result, your blog post will be made more creative, unique, as well as compelling."
-//     },
-//     {
-//         id: 11,
-//         questionNo: "Q11: ",
-//         question: "How to rewrite my paragraph?",
-//         answer: "To rewrite paragraphs, you can use the Paragraph Rewriter. It will automatically rewrite paragraph and convert them into a unique, compelling, and new style."
-//     },
-//     {
-//         id: 12,
-//         questionNo: "Q12: ",
-//         question: "Can I remove plagiarism from a paragraph?",
-//         answer: "Yes, you can remove all instances of plagiarism from a paragraph using an online AI rewriter. All you need to do is to pass your paragraphs through the tool. The Paragraph rewriter will take no time to transform it from a plagiarized to a unique one."
-//     },
-//     {
-//         id: 13, 
-//         questionNo: "Q13: ",
-//         question: "Can AI Paragraph Rewriter make my academic essay more fluent?",
-//         answer: "Our AI online rewriter tool can help you make your academic essay more fluent. For this, you can try out our “Fluent” mode to make the required changes in your essay to make it more fluent."
-//     },
-//     {
-//         id: 14,
-//         questionNo: "Q14: ",
-//         question: "Is using the rewriter tool for paragraphs Legal?",
-//         answer: "Yes, using the online rewriter for your paragraphs is completely legal."
-//     },
-//     {
-//         id: 15,
-//         questionNo: "Q15: ",
-//         question: "How does the Paragraph Rewriter tool help me write an effective blog?",
-//         answer: "Paragraph rewriting tool will help you write an effective blog by uplifting the quality of your writing paragraphs. As a result, your blog post will be made more creative, unique, as well as compelling."
-//     },
-//     {
-//         id: 16,
-//         questionNo: "Q16: ",
-//         question: "How does the Paragraph Rewriter tool help me write an effective blog?",
-//         answer: "Paragraph rewriting tool will help you write an effective blog by uplifting the quality of your writing paragraphs. As a result, your blog post will be made more creative, unique, as well as compelling."
-//     },
-// ];
+const ParagraphFAQs=[
+    {
+        id: 1,
+        questionNo: "Q1: ",
+        question: "How to rewrite my paragraph?",
+        answer: "To rewrite paragraphs, you can use the Paragraph Rewriter. It will automatically rewrite paragraph and convert them into a unique, compelling, and new style."
+    },
+    {
+        id: 2,
+        questionNo: "Q2: ",
+        question: "Can I remove plagiarism from a paragraph?",
+        answer: "Yes, you can remove all instances of plagiarism from a paragraph using an online AI rewriter. All you need to do is to pass your paragraphs through the tool. The Paragraph rewriter will take no time to transform it from a plagiarized to a unique one."
+    },
+    {
+        id: 3, 
+        questionNo: "Q3: ",
+        question: "Can AI Paragraph Rewriter make my academic essay more fluent?",
+        answer: "Our AI online rewriter tool can help you make your academic essay more fluent. For this, you can try out our “Fluent” mode to make the required changes in your essay to make it more fluent."
+    },
+    {
+        id: 4,
+        questionNo: "Q4: ",
+        question: "Is using the rewriter tool for paragraphs Legal?",
+        answer: "Yes, using the online rewriter for your paragraphs is completely legal."
+    },
+    {
+        id: 5,
+        questionNo: "Q5: ",
+        question: "How does the Paragraph Rewriter tool help me write an effective blog?",
+        answer: "Paragraph rewriting tool will help you write an effective blog by uplifting the quality of your writing paragraphs. As a result, your blog post will be made more creative, unique, as well as compelling."
+    },
+    {
+        id: 6,
+        questionNo: "Q6: ",
+        question: "How to rewrite my paragraph?",
+        answer: "To rewrite paragraphs, you can use the Paragraph Rewriter. It will automatically rewrite paragraph and convert them into a unique, compelling, and new style."
+    },
+    {
+        id: 7,
+        questionNo: "Q7: ",
+        question: "Can I remove plagiarism from a paragraph?",
+        answer: "Yes, you can remove all instances of plagiarism from a paragraph using an online AI rewriter. All you need to do is to pass your paragraphs through the tool. The Paragraph rewriter will take no time to transform it from a plagiarized to a unique one."
+    },
+    {
+        id: 8, 
+        questionNo: "Q8: ",
+        question: "Can AI Paragraph Rewriter make my academic essay more fluent?",
+        answer: "Our AI online rewriter tool can help you make your academic essay more fluent. For this, you can try out our “Fluent” mode to make the required changes in your essay to make it more fluent."
+    },
+    {
+        id: 9,
+        questionNo: "Q9: ",
+        question: "Is using the rewriter tool for paragraphs Legal?",
+        answer: "Yes, using the online rewriter for your paragraphs is completely legal."
+    },
+    {
+        id: 10,
+        questionNo: "Q10: ",
+        question: "How does the Paragraph Rewriter tool help me write an effective blog?",
+        answer: "Paragraph rewriting tool will help you write an effective blog by uplifting the quality of your writing paragraphs. As a result, your blog post will be made more creative, unique, as well as compelling."
+    },
+    {
+        id: 11,
+        questionNo: "Q11: ",
+        question: "How to rewrite my paragraph?",
+        answer: "To rewrite paragraphs, you can use the Paragraph Rewriter. It will automatically rewrite paragraph and convert them into a unique, compelling, and new style."
+    },
+    {
+        id: 12,
+        questionNo: "Q12: ",
+        question: "Can I remove plagiarism from a paragraph?",
+        answer: "Yes, you can remove all instances of plagiarism from a paragraph using an online AI rewriter. All you need to do is to pass your paragraphs through the tool. The Paragraph rewriter will take no time to transform it from a plagiarized to a unique one."
+    },
+    {
+        id: 13, 
+        questionNo: "Q13: ",
+        question: "Can AI Paragraph Rewriter make my academic essay more fluent?",
+        answer: "Our AI online rewriter tool can help you make your academic essay more fluent. For this, you can try out our “Fluent” mode to make the required changes in your essay to make it more fluent."
+    },
+    {
+        id: 14,
+        questionNo: "Q14: ",
+        question: "Is using the rewriter tool for paragraphs Legal?",
+        answer: "Yes, using the online rewriter for your paragraphs is completely legal."
+    },
+    {
+        id: 15,
+        questionNo: "Q15: ",
+        question: "How does the Paragraph Rewriter tool help me write an effective blog?",
+        answer: "Paragraph rewriting tool will help you write an effective blog by uplifting the quality of your writing paragraphs. As a result, your blog post will be made more creative, unique, as well as compelling."
+    },
+    {
+        id: 16,
+        questionNo: "Q16: ",
+        question: "How does the Paragraph Rewriter tool help me write an effective blog?",
+        answer: "Paragraph rewriting tool will help you write an effective blog by uplifting the quality of your writing paragraphs. As a result, your blog post will be made more creative, unique, as well as compelling."
+    },
+];
 
 const SentenceFAQsData=[
     {
@@ -724,4 +724,4 @@ const UsersInfo=[
     },
 ]
 export default Menu;
-export {Tabs,Textparagraph,generatorTextparagraph,CardDatavideo,CardDataaudio,FeaturedCardData,AIToolData,Rewritertooldata,FAQsData,UsersInfo,GenerateCardData,GenerateFeaturedCardData,paragraphGeneratorTools,SentenceCardData,SentenceRewriteText,SentenceFeaturedCardData,SentenceFAQsData};
+export {Tabs,Textparagraph,generatorTextparagraph,ParagraphFAQs,CardDatavideo,CardDataaudio,FeaturedCardData,AIToolData,Rewritertooldata,FAQsData,UsersInfo,GenerateCardData,GenerateFeaturedCardData,paragraphGeneratorTools,SentenceCardData,SentenceRewriteText,SentenceFeaturedCardData,SentenceFAQsData};
