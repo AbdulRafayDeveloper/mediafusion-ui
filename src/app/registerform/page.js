@@ -53,7 +53,9 @@ const Register = () => {
   return (
     <div className="flex justify-center items-center min-h-screen bg-gray-100">
       <div className="w-full max-w-md bg-white p-8 rounded-lg shadow-md">
-        <h2 className="text-2xl font-bold text-center text-gray-700">Register</h2>
+        <h2 className="text-2xl font-bold text-center text-gray-700">
+          Register
+        </h2>
         <form onSubmit={handleSubmit} className="mt-6">
           {/* Name Field */}
           <div className="mb-4">
@@ -81,17 +83,33 @@ const Register = () => {
             <label htmlFor="email" className="block text-gray-700 font-medium">
               Email
             </label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              value={formData.email}
-              onChange={handleChange}
-              className={`w-full px-4 py-2 border rounded-lg focus:outline-none ${
-                errors.email ? "border-red-500" : "border-gray-300"
-              }`}
-              placeholder="Enter your email"
-            />
+            <div className="relative">
+              {/* Icon */}
+              <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                <svg
+                  className="w-5 h-5 text-gray-500"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 20 16"
+                >
+                  <path d="m10.036 8.278 9.258-7.79A1.979 1.979 0 0 0 18 0H2A1.987 1.987 0 0 0 .641.541l9.395 7.737Z" />
+                  <path d="M11.241 9.817c-.36.275-.801.425-1.255.427-.428 0-.845-.138-1.187-.395L0 2.6V14a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V2.5l-8.759 7.317Z" />
+                </svg>
+              </div>
+              {/* Input Field */}
+              <input
+                type="email"
+                id="email"
+                name="email"
+                value={formData.email}
+                onChange={handleChange}
+                className={`w-full pl-10 pr-4 py-2 border rounded-lg focus:outline-none ${
+                  errors.email ? "border-red-500" : "border-gray-300"
+                }`}
+                placeholder="Enter your email"
+              />
+            </div>
             {errors.email && (
               <p className="text-sm text-red-500 mt-1">{errors.email}</p>
             )}
@@ -147,6 +165,7 @@ const Register = () => {
             )}
           </div>
 
+        
           {/* Submit Button */}
           <div className="mt-6">
             <button
@@ -158,6 +177,7 @@ const Register = () => {
           </div>
         </form>
       </div>
+      <script src="/node_modules/flowbite/dist/flowbite.min.js"></script>
     </div>
   );
 };
