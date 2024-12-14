@@ -10,28 +10,22 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-slate-100 fixed w-full z-20 top-0 shadow-md">
-      <div className="max-w-screen-xl flex items-center justify-between mx-auto py-2">
+    <nav className="fixed top-0 left-0 w-full bg-slate-100 z-50 shadow-md">
+      <div className="max-w-screen-xl mx-auto flex flex-wrap items-center justify-between p-4">
         {/* Logo */}
-        <Link
-          href="/"
-          className="flex items-center space-x-2 sm:space-x-3 rtl:space-x-reverse"
-        >
-          <img
-            src="/img/logo.png"
-            className="h-8 sm:h-14"
-            alt="Flowbite Logo"
-          />
-          {/* <span className="text-lg font-bold text-gray-700">Brand</span> */}
+        <Link href="/" className="flex items-center">
+          <img src="/img/logo.png" className="h-8 sm:h-10" alt="Logo" />
         </Link>
 
-        {/* Hamburger Menu Button */}
+        {/* Hamburger Menu */}
         <button
           onClick={toggleMenu}
-          className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-gray-200"
-          aria-controls="navbar-sticky"
+          type="button"
+          className="inline-flex items-center p-2 w-10 h-10 justify-center text-gray-500 rounded-lg md:hidden hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-gray-300"
+          aria-controls="navbar"
           aria-expanded={isOpen}
         >
+          <span className="sr-only">Open main menu</span>
           <svg
             className="w-6 h-6"
             xmlns="http://www.w3.org/2000/svg"
@@ -42,24 +36,28 @@ const Navbar = () => {
             <path
               strokeLinecap="round"
               strokeLinejoin="round"
-              strokeWidth="2"
-              d={isOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16m-7 6h7"}
+              strokeWidth={2}
+              d={
+                isOpen
+                  ? "M6 18L18 6M6 6l12 12"
+                  : "M4 6h16M4 12h16M4 18h16"
+              }
             />
           </svg>
         </button>
 
-        {/* Navbar Links */}
+        {/* Menu Links */}
         <div
-          className={`w-full md:flex md:w-auto md:items-center transition-all duration-300 ease-in-out ${
+          className={`${
             isOpen ? "block" : "hidden"
-          }`}
-          id="navbar-sticky"
+          } w-full md:flex md:w-auto md:block`}
+          id="navbar"
         >
-          <ul className="flex flex-col p-4 md:p-0 mt-4 border rounded-lg bg-slate-100 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-transparent">
+          <ul className="flex flex-col mt-4 md:flex-row md:mt-0 md:space-x-6">
             <li>
               <Link
-                href="/"
-                className="text-base block py-2  text-gray-500 hover:bg-gray-200 md:hover:bg-transparent md:hover:text-gray-800"
+                href="/videoconvertor"
+                className="block py-2 text-gray-700 hover:text-gray-900"
               >
                 Video Revoice
               </Link>
@@ -67,15 +65,15 @@ const Navbar = () => {
             <li>
               <Link
                 href="/paragraphGenerator"
-                className="text-base block py-2  text-gray-500 hover:bg-gray-200 md:hover:bg-transparent md:hover:text-gray-800"
+                className="block py-2 text-gray-700 hover:text-gray-900"
               >
                 Speech Maker
               </Link>
             </li>
             <li>
               <Link
-                href="/sentenceRewriter"
-                className="text-base block py-2  text-gray-500 hover:bg-gray-200 md:hover:bg-transparent md:hover:text-gray-800"
+                href="sentenceRewriter"
+                className="block py-2 text-gray-700 hover:text-gray-900"
               >
                 About Us
               </Link>
@@ -83,7 +81,7 @@ const Navbar = () => {
             <li>
               <Link
                 href="/loginform"
-                className="text-base block py-2  text-gray-500 hover:bg-gray-200 md:hover:bg-transparent md:hover:text-gray-800"
+                className="block py-2 text-gray-700 hover:text-gray-900"
               >
                 Login / Register
               </Link>
