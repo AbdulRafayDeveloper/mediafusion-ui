@@ -67,7 +67,7 @@ const AiTool = () => {
   return (
     <>
       <div className="container mx-auto px-4 sm:px-8 lg:px-16 xl:px-36 h-screen mt-20 lg:mt-44">
-        <div className="border-2 p-4 h-auto bg-gray-100">
+        <div className="border-2 p-4 py-10 h-auto bg-gray-100">
           {/* File upload and size info */}
           <div className="flex justify-between">
             <div className="text-gray-500 text-sm">Max size: 30MB</div>
@@ -101,9 +101,10 @@ const AiTool = () => {
         </div>
 
         {/* Language selector and buttons */}
-        <div className="mt-6 flex flex-col lg:flex-row gap-4 lg:gap-10">
+        <div className="mt-6 flex flex-col lg:flex-row justify-between gap-4 lg:gap-10">
           {/* Language Selector */}
-          <Box
+         <div>
+         <Box
             component="form"
             sx={{ "& .MuiTextField-root": { m: 1, width: "100%" } }}
             noValidate
@@ -128,9 +129,11 @@ const AiTool = () => {
               ))}
             </TextField>
           </Box>
+         </div>
 
-          {/* Buttons */}
-          <div className="flex flex-col sm:flex-row items-center gap-4">
+         <div>
+           {/* Buttons */}
+           <div className="flex flex-col sm:flex-row items-center gap-4">
             <Button
               variant="contained"
               color="primary"
@@ -150,6 +153,7 @@ const AiTool = () => {
               Download Video
             </Button>
           </div>
+         </div>
         </div>
       </div>
     </>
