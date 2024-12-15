@@ -7,18 +7,12 @@ import GeneratorCards from '../components/generatorCardsTool';
 import GeneratorFaature from '../components/generatorFeature';
 import GeneratorAiTool from '../components/generatorToolAI';
 import GeneratorrFAQs from '../components/generatorFAQ';
+import GeneratoraudioTool from '../components/generatorTool';
 
 const ParaGeneratorTool = () => {
   return (
     <>
-        <Navbar/>
-        <GeneratorTool/>
-        <GeneratorCards/>
-        <GeneratorFaature/>
-        <GeneratorAiTool/>
-        <GenerateRewriteTool/>
-        <GeneratorrFAQs/>
-        <Footer/>
+       <GeneratoraudioTool/>
     </>
   )
 }

@@ -54,6 +54,14 @@ const Navbar = () => {
           id="navbar"
         >
           <ul className="flex flex-col mt-4 md:flex-row md:mt-0 md:space-x-6">
+          <li>
+              <Link
+                href="/"
+                className="block py-2 text-gray-700 hover:text-gray-900"
+              >
+                Home
+              </Link>
+            </li>
             <li>
               <Link
                 href="/videoconvertor"
@@ -64,7 +72,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                href="/paragraphGenerator"
+                href="/audioconvertor"
                 className="block py-2 text-gray-700 hover:text-gray-900"
               >
                 Speech Maker
@@ -72,7 +80,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                href="sentenceRewriter"
+                href="/aboutpage"
                 className="block py-2 text-gray-700 hover:text-gray-900"
               >
                 About Us

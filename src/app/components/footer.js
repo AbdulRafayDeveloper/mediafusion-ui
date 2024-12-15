@@ -79,14 +79,14 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        {/* Bottom copyright section */}
+        {/* Bottom copyright section
         <div className="bg-slate-800">
           <div className="flex p-4 text-center justify-center items-center">
             <h1 className="text-white text-sm lg:text-lg">
               Copyright © 2024 Paragraph Rewriter
             </h1>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );

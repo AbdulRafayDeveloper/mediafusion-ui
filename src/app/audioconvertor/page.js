@@ -5,11 +5,13 @@ import Featured from '../components/featured';
 import RewriterTool from '../components/rewritertool';
 import FAQs from '../components/FAQ';
 import Footer from '../components/footer';
-const VideoConvertor = () => {
+import GeneratoraudioTool from '../components/generatorTool';
+const AudioConvertor = () => {
   return (
     <>
        
-        <AiTool/>
+        {/* <AiTool/> */}
+        <GeneratoraudioTool/>
        <Homepagesection/>
        <Featured/>
        <RewriterTool/>
@@ -19,4 +21,4 @@ const VideoConvertor = () => {
   )
 }
 
-export default VideoConvertor;
+export default AudioConvertor;

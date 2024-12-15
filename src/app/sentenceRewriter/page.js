@@ -1,22 +1,22 @@
 import React from 'react';
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
-import SentenceRewriteTool from '../components/sentenceRewriteTool';
-import SentenceRewriteCards from '../components/sentenceRewriteCards';
-import SentenceFeatures from '../components/sentenceFeatures';
-import SentenceAiTool from '../components/sentenceAITool';
-import SentenceFAQs from '../components/sentenceFAQs';
-
-
+import GeneratorTool from '../components/generatorTool';
+import GenerateRewriteTool from '../components/generateRewriteTool';
+import GeneratorCards from '../components/generatorCardsTool';
+import GeneratorFaature from '../components/generatorFeature';
+import GeneratorAiTool from '../components/generatorToolAI';
+import GeneratorrFAQs from '../components/generatorFAQ';
 const ParaGeneratorTool = () => {
   return (
     <>
         <Navbar/>
-        <SentenceRewriteTool/>
-        <SentenceRewriteCards/>
-        <SentenceFeatures/>
-        <SentenceAiTool/>
-        <SentenceFAQs/>
+        <GeneratorTool/>
+        <GeneratorCards/>
+        <GeneratorFaature/>
+        <GeneratorAiTool/>
+        <GenerateRewriteTool/>
+        <GeneratorrFAQs/>
         <Footer/>
     </>
   )
