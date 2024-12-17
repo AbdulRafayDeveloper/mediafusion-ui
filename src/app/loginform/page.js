@@ -1,6 +1,8 @@
 "use client";
 
 import { useState } from "react";
+import Navbar from "../components/navbar";
+import Footer from "../components/footer";
 
 const AuthForm = () => {
   const [isRegister, setIsRegister] = useState(true); // Toggle between Register and Login
@@ -63,6 +65,8 @@ const AuthForm = () => {
   };
 
   return (
+    <>
+    <Navbar/>
     <div className="flex items-center justify-center min-h-screen mt-6 bg-gray-100">
       <div className="w-full max-w-md p-5 space-y-6 bg-white rounded-lg shadow-lg">
         <h2 className="text-2xl font-bold text-center text-gray-800">
@@ -191,6 +195,8 @@ const AuthForm = () => {
         </div>
       </div>
     </div>
+    <Footer/>
+    </>
   );
 };
 

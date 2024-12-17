@@ -1,8 +1,8 @@
 'use client';
 import React, { useState } from 'react';
-import { SentenceFAQsData } from '../dataset/data';
+import { FAQsData } from '../dataset/data';
 
-const SentenceFAQs= () => {
+const Questions = () => {
     const [openIndex, setOpenIndex] = useState(null);
     const [activeBtn, setActiveBtn] = useState(0);
     
@@ -15,16 +15,15 @@ const SentenceFAQs= () => {
             <div className="flex justify-center items-center text-center mt-6">
                 <div className="w-full sm:w-[600px] lg:w-[800px] mt-6">
                     <div className="mt-5 w-full lg:max-w-[1320px] mx-auto p-4">
-                        <h1 className="text-2xl sm:text-3xl font-bold">Features of Our Paragraph Rewriter:</h1>
+                        <h1 className="text-2xl sm:text-3xl font-bold">Features of Our Platform:</h1>
                         <p className="text-md sm:text-lg mt-4">
-                            Our AI Rewriter free tool possesses useful features to enhance the results as well as the user experience. The features of our rewrite paragraph tool are below:
-                        </p>
+                        Our innovative platform is designed to deliver seamless functionality and enhance user experience. Below are the core features of our tools:                        </p>
                     </div>
                 </div>
             </div>
             <div className="flex mt-5 w-full lg:max-w-[950px] mx-auto p-7 bg-slate-100">
                 <div id="accordion-open" data-accordion="open" className="w-full">
-                    {SentenceFAQsData.map((item, index) => (
+                    {FAQsData.map((item, index) => (
                         <div key={index} className='p-1'>
                             <h2 id={`accordion-open-heading-${index}`}>
                                 <button
@@ -67,4 +66,4 @@ const SentenceFAQs= () => {
     );
 };
 
-export default SentenceFAQs;
+export default Questions;

@@ -1,10 +1,11 @@
 import Image from "next/image";
 
 import Footer from '../components/footer';
+import Navbar from "../components/navbar";
 const AboutUs = () => {
   return (
     <>
-  
+  <Navbar/>
     <section className=" py-16 mt-16 px-6 md:px-12">
       <div className="container mx-auto">
         {/* Heading */}

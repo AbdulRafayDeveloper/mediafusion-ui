@@ -8,7 +8,7 @@ const Footer = () => {
           <div className="flex flex-col lg:flex-row gap-10 justify-center mx-auto lg:max-w-[1200px] p-3">
             <div className="w-full lg:w-[900px]">
               <a
-                href="#"
+                href="/"
                 className="flex items-center space-x-3 rtl:space-x-reverse"
               >
                 <img
@@ -34,16 +34,16 @@ const Footer = () => {
               </div>
               <div className="mt-6 space-y-2 text-lg">
                
-                <Link href="/about" className="block hover:text-blue-600">
+                <Link href="/aboutpage" className="block hover:text-blue-600">
                   About Us
                 </Link>
                 <Link href="/privacy" className="block hover:text-blue-600">
                   Privacy & Policy
                 </Link>
-                <Link href="/revoice" className="block hover:text-blue-600">
+                <Link href="/videoconvertor" className="block hover:text-blue-600">
               	Video Revoice
                 </Link>
-                <Link href="/speechmaker" className="block hover:text-blue-600">
+                <Link href="/audioconvertor" className="block hover:text-blue-600">
                 Speech Maker
                 </Link>
               </div>
