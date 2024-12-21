@@ -66,11 +66,15 @@ const AiTool = () => {
 
   return (
     <>
-      <div className="container mx-auto px-4 sm:px-8 lg:px-16 xl:px-36 h-screen mt-20 lg:mt-44">
-        <div className="border-2 p-4 py-10 h-auto bg-gray-100">
+      <div className="container mx-auto px-4 sm:px-8 mt-32 items-center text-center md:text-4xl text-2xl font-bold mb-6 ">
+        Convert your Video
+      </div>
+      <div className="container mx-auto px-4 sm:px-8  xl:px-14 h-screen ">
+        <div className="border-2 lg:p-4 md:p-3 p-2 lg:py-10 md:py-7 py-5 h-auto bg-gray-100">
           {/* File upload and size info */}
           <div className="flex justify-between">
             <div className="text-gray-500 text-sm">Max size: 30MB</div>
+            <div className="text-gray-500 text-sm">Only .mp4 is allowed</div>
           </div>
 
           {/* File upload icon and status */}
@@ -79,7 +83,7 @@ const AiTool = () => {
               htmlFor="videoUpload"
               className="flex items-center justify-center cursor-pointer shadow-lg"
             >
-              <UploadFileSharpIcon className="h-16 w-16" />
+              <UploadFileSharpIcon className="md:h-16 md:w-16 h-10 w-10" />
               <input
                 id="videoUpload"
                 type="file"
@@ -103,57 +107,57 @@ const AiTool = () => {
         {/* Language selector and buttons */}
         <div className="mt-6 flex flex-col lg:flex-row justify-between gap-4 lg:gap-10">
           {/* Language Selector */}
-         <div>
-         <Box
-            component="form"
-            sx={{ "& .MuiTextField-root": { m: 1, width: "100%" } }}
-            noValidate
-            autoComplete="off"
-          >
-            <TextField
-              id="outlined-select-language"
-              select
-              label="Select Language"
-              value={selectedLanguage}
-              onChange={handleLanguageChange}
-              helperText="Please select your language"
-              fullWidth
+          <div>
+            <Box
+              component="form"
+              sx={{ "& .MuiTextField-root": { m: 1, width: "100%" } }}
+              noValidate
+              autoComplete="off"
             >
-              <MenuItem value="" disabled>
-                Select a language
-              </MenuItem>
-              {languages.map((option) => (
-                <MenuItem key={option.value} value={option.value}>
-                  {option.label}
+              <TextField
+                id="outlined-select-language"
+                select
+                label="Select Language"
+                value={selectedLanguage}
+                onChange={handleLanguageChange}
+                helperText="Please select your language"
+                fullWidth
+              >
+                <MenuItem value="" disabled>
+                  Select a language
                 </MenuItem>
-              ))}
-            </TextField>
-          </Box>
-         </div>
-
-         <div>
-           {/* Buttons */}
-           <div className="flex flex-col sm:flex-row items-center gap-4">
-            <Button
-              variant="contained"
-              color="primary"
-              onClick={handleConvertVideo}
-              className="w-full sm:w-auto py-4 mb-5"
-            >
-              Convert Video
-            </Button>
-
-            <Button
-              variant="outlined"
-              color="secondary"
-              startIcon={<DownloadIcon />}
-              onClick={handleDownloadVideo}
-              className="w-full sm:w-auto py-4 mb-5"
-            >
-              Download Video
-            </Button>
+                {languages.map((option) => (
+                  <MenuItem key={option.value} value={option.value}>
+                    {option.label}
+                  </MenuItem>
+                ))}
+              </TextField>
+            </Box>
           </div>
-         </div>
+
+          <div>
+            {/* Buttons */}
+            <div className="flex flex-col sm:flex-row items-center gap-4">
+              <Button
+                variant="contained"
+                color="primary"
+                onClick={handleConvertVideo}
+                className="w-full sm:w-auto py-4 mb-5"
+              >
+                Convert Video
+              </Button>
+
+              <Button
+                variant="outlined"
+                color="secondary"
+                startIcon={<DownloadIcon />}
+                onClick={handleDownloadVideo}
+                className="w-full sm:w-auto py-4 mb-5"
+              >
+                Download Video
+              </Button>
+            </div>
+          </div>
         </div>
       </div>
     </>

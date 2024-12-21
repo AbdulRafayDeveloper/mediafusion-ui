@@ -1,9 +1,11 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation"; // Import usePathname to get the current route
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const pathname = usePathname(); // Get the current path
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -54,10 +56,12 @@ const Navbar = () => {
           id="navbar"
         >
           <ul className="flex flex-col mt-4 md:flex-row md:mt-0 md:space-x-6">
-          <li>
+            <li>
               <Link
                 href="/"
-                className="block py-2 text-gray-700 hover:text-gray-900"
+                className={`block py-2 ${
+                  pathname === "/" ? "text-blue-500 border-b-2 border-blue-500" : "text-gray-700 hover:text-gray-900"
+                }`}
               >
                 Home
               </Link>
@@ -65,7 +69,11 @@ const Navbar = () => {
             <li>
               <Link
                 href="/videoconvertor"
-                className="block py-2 text-gray-700 hover:text-gray-900"
+                className={`block py-2 ${
+                  pathname === "/videoconvertor"
+                    ? "text-blue-500 border-b-2 border-blue-500"
+                    : "text-gray-700 hover:text-gray-900"
+                }`}
               >
                 Video Revoice
               </Link>
@@ -73,7 +81,11 @@ const Navbar = () => {
             <li>
               <Link
                 href="/audioconvertor"
-                className="block py-2 text-gray-700 hover:text-gray-900"
+                className={`block py-2 ${
+                  pathname === "/audioconvertor"
+                    ? "text-blue-500 border-b-2 border-blue-500"
+                    : "text-gray-700 hover:text-gray-900"
+                }`}
               >
                 Speech Maker
               </Link>
@@ -81,7 +93,11 @@ const Navbar = () => {
             <li>
               <Link
                 href="/aboutpage"
-                className="block py-2 text-gray-700 hover:text-gray-900"
+                className={`block py-2 ${
+                  pathname === "/aboutpage"
+                    ? "text-blue-500 border-b-2 border-blue-500"
+                    : "text-gray-700 hover:text-gray-900"
+                }`}
               >
                 About Us
               </Link>
@@ -89,7 +105,11 @@ const Navbar = () => {
             <li>
               <Link
                 href="/loginform"
-                className="block py-2 text-gray-700 hover:text-gray-900"
+                className={`block py-2 ${
+                  pathname === "/loginform"
+                    ? "text-blue-500 border-b-2 border-blue-500"
+                    : "text-gray-700 hover:text-gray-900"
+                }`}
               >
                 Login / Register
               </Link>

@@ -8,7 +8,10 @@ function SecondLayerSidebar() {
                 dashboard="../../../admin/dashboard"
                 addProjects="../../../admin/projects/add"
                 projects="../../../admin/projects/list"
-                customers="../../../admin/customers/list"
+                speechmaker="../../../admin/speechmaker"
+                videorevoice="../../../admin/videorevoice"
+                users="../../../admin/users/list"
+            
             ></Sidebar>
         </div >
     )

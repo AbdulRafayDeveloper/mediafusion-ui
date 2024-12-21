@@ -80,7 +80,11 @@ const GeneratoraudioTool = () => {
     link.click();
   };
   return (
-    <div className="container mx-auto px-4 sm:px-8 lg:px-16   mt-20 h-screen lg:mt-32">
+   <>
+    <div className="container mx-auto px-4 sm:px-8 mt-28 items-center text-center md:text-4xl text-2xl font-bold ">
+        Convert your Text to Audio
+      </div>
+    <div className="container mx-auto px-4 sm:px-8 mt-4  h-screen  ">
       <div className="border-2 p-4 py-10 bg-gray-100">
         <div className="flex flex-col">
           <textarea
@@ -212,6 +216,7 @@ const GeneratoraudioTool = () => {
         </div>
       </div>
     </div>
+   </>
   );
 };
 

@@ -6,7 +6,9 @@ function LinkingWithSidebar() {
         <div>
             <Sidebar
                 dashboard="../../admin/dashboard"
-                customers="../../admin/customers/list"
+                speechmaker="../../admin/speechmaker"
+                videorevoice="../../admin/videorevoice"
+                users="../../admin/users/list"
             ></Sidebar>
         </div >
     )
