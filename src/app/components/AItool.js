@@ -70,7 +70,7 @@ const AiTool = () => {
         Convert your Video
       </div>
       <div className="container mx-auto px-4 sm:px-8  xl:px-14 h-screen ">
-        <div className="border-2 lg:p-4 md:p-3 p-2 lg:py-10 md:py-7 py-5 h-auto bg-gray-100">
+        <div className="border-2 lg:p-4 md:p-3 p-2 lg:py-10 md:py-7 py-20 h-auto bg-gray-100">
           {/* File upload and size info */}
           <div className="flex justify-between">
             <div className="text-gray-500 text-sm">Max size: 30MB</div>

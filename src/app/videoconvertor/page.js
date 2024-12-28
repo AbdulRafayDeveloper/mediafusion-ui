@@ -9,14 +9,13 @@ import Navbar from '../components/navbar';
 const VideoConvertor = () => {
   return (
     <>
-       <Navbar/>
-        <AiTool/>
-        
-       <Homepagesection/>
-       <Featured/>
-       <RewriterTool/>
-       {/* <FAQs/> */}
-       <Footer/>
+      <Navbar />
+      <AiTool />
+      <Homepagesection />
+      <Featured />
+      <RewriterTool />
+      {/* <FAQs/> */}
+      <Footer />
     </>
   )
 }
